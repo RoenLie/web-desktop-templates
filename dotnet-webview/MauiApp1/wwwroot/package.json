@@ -1,0 +1,30 @@
+{
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"preview": "vite preview",
+		"build": "vite build",
+		"updatedeps": "pnpm update --latest --interactive",
+		"typecheck": "tsc --project ./src/tsconfig.json"
+	},
+	"dependencies": {
+		"@roenlie/mimic-lit": "^0.0.34",
+		"@vaadin/router": "^1.7.5",
+		"lit": "^2.7.6",
+		"tslib": "^2.6.0"
+	},
+	"devDependencies": {
+		"@roenlie/eslint-config": "^1.0.0",
+		"@roenlie/tsconfig": "^1.0.0",
+		"@types/node": "18.15.11",
+		"@typescript-eslint/eslint-plugin": "^5.59.0",
+		"@typescript-eslint/parser": "^5.59.0",
+		"eslint": "^8.38.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-lit": "^1.8.3",
+		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"tsm": "^2.3.0",
+		"typescript": "^5.1.6",
+		"vite": "^4.4.4"
+	}
+}
